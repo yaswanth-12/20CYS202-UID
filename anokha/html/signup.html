@@ -529,6 +529,7 @@
     for (var i = 0; i < arrLen; i++) {
       if (y.includes(sp[i])) {
         alert("Please remove numbers and special characters from name");
+        window.location.reload();
       }
     }
   }
@@ -538,7 +539,8 @@
     var mail = document.getElementById("email").value;
     if (!mail.match(maill)) {
       alert("Please enter a valid email address");
-      document.getElementById("email").focus()
+      document.getElementById("email").focus();
+      window.location.reload();
     }
   }
 
@@ -546,7 +548,8 @@
     let pwd = document.getElementById("pwd").value;
     if ( pwd.length < 8 ) {
       alert("Enter strong password that is more than 8 characters long");
-      document.getElementById("pwd").focus()
+      document.getElementById("pwd").focus();
+      window.location.reload();
     }
   }
 
