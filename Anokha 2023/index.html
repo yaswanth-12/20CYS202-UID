@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>
+        Anokha Tech Fest
+    </title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+        * {
+            padding: 0%;
+            margin: 0px 0px 0px 0px;
+        }
+
+
+        .header p {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            position: absolute;
+            margin-left: 3.9%;
+            margin-top: -2%;
+            padding-top: 0.1%;
+        }
+
+        .nav-right {
+            margin-left: 56%;
+            margin-top: -4%;
+        }
+
+        .main_body {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-right a:hover {
+            color: rgb(25, 119, 140);
+        }
+
+        .nav-left img {
+            left: 50%;
+            transform: translate(5%, 0%);
+        }
+
+        .links {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .body_text {
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            padding-left: 10%;
+            padding-right: 10%;
+            color: black;
+            font-size: 18px;
+        }
+
+        .site-footer a {
+            text-decoration: none;
+        }
+
+        .site-footer {
+            background-color: #26272b;
+            padding: 45px 0 20px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #737373;
+        }
+
+        .site-footer hr {
+            border-top-color: #bbb;
+            opacity: 0.5
+        }
+
+        .site-footer hr.small {
+            margin: 10px 0
+        }
+
+        .site-footer h6 {
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 5px;
+            letter-spacing: 2px
+        }
+
+        .site-footer a {
+            color: #737373;
+        }
+
+        .site-footer a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            padding-left: 0;
+            list-style: none
+        }
+
+        .footer-links li {
+            display: block
+        }
+
+        .footer-links a {
+            color: #737373
+        }
+
+        .footer-links a:active,
+        .footer-links a:focus,
+        .footer-links a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .footer-links.inline li {
+            display: inline-block
+        }
+
+        .site-footer .social-icons {
+            text-align: right
+        }
+
+        .site-footer .social-icons a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: 6px;
+            margin-right: 0;
+            border-radius: 100%;
+            background-color: #33353d
+        }
+
+        .copyright-text {
+            margin: 0
+        }
+
+        @media (max-width:1030px) {
+            .site-footer [class^=col-] {
+                margin-bottom: 30px
+            }
+        }
+
+        @media (max-width:900px) {
+            .site-footer {
+                padding-bottom: 0
+            }
+
+            .site-footer .copyright-text,
+            .site-footer .social-icons {
+                text-align: center
+            }
+        }
+
+        .social-icons {
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin-bottom: 4px
+        }
+
+        .social-icons li.title {
+            margin-right: 15px;
+            text-transform: uppercase;
+            color: #96a2b2;
+            font-weight: 700;
+            font-size: 13px
+        }
+
+        .social-icons a {
+            background-color: #eceeef;
+            color: #818a91;
+            font-size: 16px;
+            display: inline-block;
+            line-height: 44px;
+            width: 44px;
+            height: 44px;
+            text-align: center;
+            margin-right: 8px;
+            border-radius: 100%;
+            -webkit-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear
+        }
+
+        .social-icons a:active,
+        .social-icons a:focus,
+        .social-icons a:hover {
+            color: #fff;
+            background-color: #29aafe
+        }
+
+        .social-icons.size-sm a {
+            line-height: 34px;
+            height: 34px;
+            width: 34px;
+            font-size: 14px
+        }
+
+        .social-icons a.facebook:hover {
+            background-color: #3b5998
+        }
+
+        .social-icons a.twitter:hover {
+            background-color: #00aced
+        }
+
+        .social-icons a.linkedin:hover {
+            background-color: #007bb6
+        }
+
+        .social-icons a.instagram:hover {
+            background-color: #ea4c89
+        }
+
+        @media (max-width:767px) {
+            .social-icons li.title {
+                display: block;
+                margin-right: 0;
+                font-weight: 600
+            }
+        }
+
+        .photos img {
+            height: 290px;
+            width: 400px;
+            border-radius: 3%;
+        }
+
+        .r1row {
+            display: inline-block;
+            margin-left: 9%;
+        }
+
+        .r2row {
+            display: inline-block;
+            margin-left: 9%;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="nav-left">
+            <img src="images/amrita.png" width="300px" height="120px" alt="">
+        </div>
+
+        <div class="nav-right">
+            <p style=" font-size:20px; ">
+                <a href="" class="links"> Home </a> &nbsp; &nbsp; &nbsp;
+                <a href="html/signup.html"  target="_blank" class="links"> Registration </a> &nbsp; &nbsp; &nbsp;
+                <a href="html/login.html" class="links"> Login </a> &nbsp; &nbsp; &nbsp;
+                <a href="html/contact.html" class="links"> Contact </a> &nbsp; &nbsp; &nbsp;
+                <a href="https://www.amrita.edu/news/anokha-2019-techfest-celebrating-progress-innovation-and-teamwork/"
+                    target="_blank" class="links"> 2019 Anokha </a>
+            </p>
+        </div>
+
+    </div>
+    <br><br>
+    <hr>
+
+    <div class="main_body">
+        <img src="images/pic_1.jpeg">
+    </div>
+
+    <br><br>
+
+    <div class="body_text">
+        <p>
+            <b>The 10th edition of Amrita Vishwa vidyapeetham's annual national-level student technical festival,
+                “Anokha 2023” was held at the Coimbatore campus of Amrita Vishwa Vidyapeetham from
+                March 5-7, 2023. Mr. V. Chandrashekar Executive Vice-President, L & T InfoTech, inaugurated the fest,
+                sharing valuable insights. Mr. M. Chandradathan Director, Vikram Sarabhai Space Centre (VSSC)
+                and Mr. Arun Nayar Director, Safran Engineering Services were the Guests of Honor for the day. Prof. C.
+                Parameswaran, Director, Corporate & Industry Relations, Amrita Vishwa Vidyapeetham presided over the
+                function.</b>
+        </p>
+    </div>
+
+    <br><br>
+
+    <div class="photos">
+        <div class="r1row">
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest.jpg"  > &nbsp;&nbsp;
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest8.jpg" > &nbsp;&nbsp;
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest9.jpg" >
+        </div>
+        <br><br>
+        <div class="r2row">
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest25.jpg"> &nbsp;&nbsp;
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest10.jpg"> &nbsp;&nbsp;
+            <img src="http://amrita.edu/wp-content/uploads/2019/02/anokha-2019-techfest36.jpg">
+        </div>
+    </div>
+
+    <br><br>
+</body>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify"><p >Amrita Vishwa Vidyapeetham is a multi-disciplinary, research-intensive, private university, educating a vibrant student population of over 24,000 by 1700+ strong faculty. Accredited with the highest possible 'A++'' grade by NAAC, Amrita offers more than 250 UG, PG, and Ph.D. programs in Engineering, Management, and Medical Sciences including Ayurveda, Life Sciences, Physical Sciences, Agriculture Sciences, Arts & Humanities, and Social & Behavioral Sciences.
+                        <br><br>With seven campuses at Amaravati, Amritapuri, Bengaluru, Chennai, Coimbatore, Kochi, and Mysuru and a new upcoming campus at NCR Delhi (Faridabad) and spread over 1200+ acres with 100 lacs square feet of built-up space, Amrita is one of India's top-ranked private university.</p>
+                        </p>
+                </div>
+
+                <div class="col-xs- col-md-3">
+                    <h6>Campus</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/front-end-development/">Coimbatore</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">Amritapuri</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">Amaravati</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Bengaluru</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Chennai</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Kochi</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Mysuru</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://www.amrita.edu/">About Us</a></li>
+                        <li><a href="html/contact.html">Contact Us</a></li>
+                        <li><a href="http://amrita.edu/privacy-policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
+                        <a href="https://github.com/yaswanth-12">Yaswanth</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</html>
