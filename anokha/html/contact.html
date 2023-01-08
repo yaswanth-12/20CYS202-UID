@@ -1,3 +1,12 @@
+<!--
+Authors: Yaswanth Gadamsetti
+Created Date: 14 Dec 2022
+Updated Date: 08 Jan 2023
+Base Template: The Footer of the page is a template taken from codepen.io, refer: https://codepen.io/scanfcode/pen/MEZPNd 
+Description: Contact page
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -301,20 +310,20 @@
             <form>
 
                 <label for="name"> <b>Name</b></label>
-                <input type="text" id="name" name="tname" placeholder="Your name..">
+                <input type="text" id="name" name="tname" placeholder="Your name.." required>
 
                 <label for="email"> <b>Email</b></label>
-                <input type="text" id="ename" name="tname" placeholder="Your email..">
+                <input type="text" id="ename" name="tname" placeholder="Your email.." onchange="validateEmail()" required>
 
                 <label for="country"> <b>Department</b></label>
                 <select id="country" name="country">
                     <option value="default"> Choose </option>
-                    <option value="australia">CYS</option>
-                    <option value="canada">CSE</option>
-                    <option value="usa">AIE</option>
-                    <option value="india">ECE</option>
-                    <option value="india">EEE</option>
-                    <option value="india">ARE</option>
+                    <option value="CYS">CYS</option>
+                    <option value="CSE">CSE</option>
+                    <option value="AIE">AIE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ARE">ARE</option>
                 </select>
 
                 <label for="subject"> <b>Subject</b></label>
@@ -382,5 +391,15 @@
     </footer>
 
 </body>
-
+<script>
+    function validateEmail() {
+    var maill = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+    var mail = document.getElementById("email").value;
+    if (!mail.match(maill)) {
+      alert("Please enter a valid email address");
+      document.getElementById("email").focus();
+      window.location.reload();
+    }
+  }
+</script>
 </html>
