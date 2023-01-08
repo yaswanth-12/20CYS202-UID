@@ -8,7 +8,6 @@ Description: Registration page
 
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
 
   <title>
@@ -402,10 +401,10 @@ Description: Registration page
           <input type="email" id="email" placeholder="Email" autocomplete="nope" onchange="validateEmail()">
         </div>
         <div class="input-field">
-          <input type="password" id="pwd" placeholder="Password"  onchange="validatePassword()">
+          <input type="password" id="pwd" placeholder="Password" onchange="validatePassword()">
         </div>
         <div class="input-field">
-          <input type="password" id="pwd1"placeholder="Confirm Password" >
+          <input type="password" id="pwd1" placeholder="Confirm Password">
         </div>
         <div class="input-field">
           <input type="text" placeholder="Degree [B.Tech/M.Tech/PhD/Masters]">
@@ -555,16 +554,17 @@ Description: Registration page
 
   function validatePassword() {
     let pwd = document.getElementById("pwd").value;
-    if ( pwd.length < 8 ) {
+    if (pwd.length < 8) {
       alert("Enter strong password that is more than 8 characters long");
       document.getElementById("pwd").focus();
       window.location.reload();
     }
   }
-  
+
   function register() {
     alert("Successfully Registered ^_^ ");
   }
 
 </script>
+
 </html>
