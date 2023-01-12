@@ -93,14 +93,9 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/manu-card.jpg");
-    opacity: 0.5;
+    opacity: 0.7;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
-
-/* .card1 p {
-    font-size: 16px;
-    color: black;
-} */
 
 .card2 {
     width: 200px;
@@ -117,7 +112,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/tran-card.jpg");
-    opacity: 0.6;
+    opacity: 0.7;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -126,7 +121,7 @@ a {
     height: 230px;
     display: inline-block;
     border-radius: 10px;
-    padding: 8px 25px;
+    padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
@@ -136,7 +131,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/reat-card.jpg");
-    opacity: 0.6;
+    opacity: 0.7;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -155,7 +150,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/cust-card.jpg");
-    opacity: 0.6;
+    opacity: 0.7;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
