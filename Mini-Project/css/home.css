@@ -87,7 +87,6 @@ a {
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-color: rgb(0, 104, 105);
     color: #000000;
     background-position: center;
     background-size: cover;
@@ -107,10 +106,12 @@ a {
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-color: #DFF0D8;
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-image: url("../images/manu-card.jpg");
+    opacity: 0.5;
+    image-rendering: crisp-edges;
 }
 
 .card3 {
@@ -122,11 +123,13 @@ a {
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-color: rgb(0, 104, 105);
-    color: #ffffff;
+    color: #000000;
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-image: url("../images/manu-card.jpg");
+    opacity: 0.5;
+    image-rendering: crisp-edges;
 }
 
 .card4 {
@@ -138,10 +141,12 @@ a {
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-color: #DFF0D8;
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-image: url("../images/manu-card.jpg");
+    opacity: 0.5;
+    image-rendering: crisp-edges;
 }
 
 .team_row_1 {
