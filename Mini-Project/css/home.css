@@ -10,6 +10,10 @@
     
 }
 
+.backgroundgg {
+    background-image: url("../images/background.jpg");
+}
+
 .tail {
     padding-left: 5%;
     padding-right: 5%;
@@ -23,11 +27,12 @@
 }
 
 .body0 {
+    margin-top: 10%;
     width: 600px;
 }
 
 .body1 {
-    margin-top: -20%;
+    margin-top: -23%;
     margin-left: 55%
 }
 
