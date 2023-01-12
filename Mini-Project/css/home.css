@@ -88,10 +88,15 @@ a {
     cursor: pointer;
     margin: 10px 15px;
     background-color: rgb(0, 104, 105);
-    color: #ffffff;
+    color: #000000;
     background-position: center;
     background-size: cover;
+    text-align: center;
+    background-image: url("../images/manu-card.jpg");
+    opacity: 0.5;
+    image-rendering: crisp-edges;
 }
+
 
 .card2 {
     width: 200px;
@@ -105,6 +110,7 @@ a {
     background-color: #DFF0D8;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .card3 {
@@ -120,6 +126,7 @@ a {
     color: #ffffff;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .card4 {
@@ -134,6 +141,7 @@ a {
     background-color: #DFF0D8;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .team_row_1 {
