@@ -117,7 +117,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/tran-card.jpg");
-    opacity: 0.5;
+    opacity: 0.6;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -154,8 +154,8 @@ a {
     background-position: center;
     background-size: cover;
     text-align: center;
-    background-image: url("../images/manu-card.jpg");
-    opacity: 0.5;
+    background-image: url("../images/cust-card.jpg");
+    opacity: 0.6;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
