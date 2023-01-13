@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
+
 }
 
 /* .backgroundgg {
@@ -156,7 +156,7 @@ a {
 }
 
 .about img {
-    width: 450px; 
+    width: 450px;
     height: 250px;
     padding: 0px;
 }
@@ -272,6 +272,14 @@ a {
 
 .team_row_2_col_2 p {
     margin-left: 20px;
+}
+
+.team_row_1 a {
+    padding: 5px;
+}
+
+.team_row_2 a {
+    padding: 5px;
 }
 
 .footer-dark {
@@ -404,3 +412,4 @@ a {
     margin-bottom: -1%;
     font-size: 15px;
 }
+
