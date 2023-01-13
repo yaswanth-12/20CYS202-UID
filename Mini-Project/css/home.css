@@ -10,9 +10,10 @@
     
 }
 
-.backgroundgg {
-    background-image: url("../images/background.jpg");
-}
+/* .backgroundgg {
+    background-image: linear-gradient(rgba(207, 207, 207, 0.5),rgba(207, 207, 207, 0.5)),url("../images/background.jpg");
+    color:rgb(0, 0, 0);
+} */
 
 .tail {
     padding-left: 5%;
@@ -32,7 +33,7 @@
 }
 
 .body1 {
-    margin-top: -23%;
+    margin-top: -31%;
     margin-left: 55%
 }
 
@@ -93,7 +94,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/manu-card.jpg");
-    opacity: 0.7;
+    opacity: 0.75;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -112,7 +113,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/tran-card.jpg");
-    opacity: 0.7;
+    opacity: 0.75;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -131,7 +132,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/reat-card.jpg");
-    opacity: 0.7;
+    opacity: 0.75;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
@@ -150,7 +151,7 @@ a {
     background-size: cover;
     text-align: center;
     background-image: url("../images/cust-card.jpg");
-    opacity: 0.7;
+    opacity: 0.75;
     box-shadow: 0px 0px 8px rgb(101, 101, 101);
 }
 
