@@ -12,6 +12,7 @@
   <title>
     Pharma Supply Chain
   </title>
+  <script src="../js/validate.js"></script>
 </head>
 
 <body>
@@ -35,11 +36,10 @@
       <h1> Manufacturer Register</h1>
       <div class="content">
         <div class="input-field">
-          <input type="text" placeholder="Cooperate name" required>
+          <input type="text" id="name" placeholder="Cooperate name" onchange="validateName()" required>
         </div>
         <div class="input-field">
-          <input type="Name" id="name" placeholder="CIN no" max=5 autocomplete="nope" onchange="validatename()"
-            required>
+          <input type="Name" id="cin" placeholder="CIN no" max=5 autocomplete="nope" onchange="validateCIN()" required>
         </div>
         <div class="input-field">
           <input type="email" id="email" placeholder="Email" autocomplete="nope" onchange="validateEmail()" required>
@@ -48,7 +48,7 @@
           <input type="password" id="pwd" placeholder="Password" onchange="validatePassword()" required>
         </div>
         <div class="input-field">
-          <input type="password" id="pwd1" placeholder="Confirm Password" required>
+          <input type="password" id="pwd1" placeholder="Confirm Password" onchange="validateConfirmPwd()" required>
         </div>
         <div class="input-field">
           <div class="move3"><label for="org"> <b>Upload your Govt. License</b></label></div>
