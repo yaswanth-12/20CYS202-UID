@@ -345,9 +345,11 @@ Updated: 14/11/2022 -->
 	}
 
 	.footer-dark {
+		margin-top: 3cm;
 		padding: 50px 0;
 		color: #f0f9ff;
 		background-color: #282d32;
+		font-family: 'Poppins', sans-serif !important;
 	}
 
 	.footer-dark .text {
@@ -371,9 +373,14 @@ Updated: 14/11/2022 -->
 		margin-bottom: 0;
 	}
 
-	.footer-dark ul li {
-		padding: 0 0 .2em 1.0em;
-	}
+    .footer-dark ul li {
+        padding: 0 0 .2em 1.0em;
+        font-size: 14px !important;
+    }
+
+    .footer-dark p {
+        font-size: 16px !important;
+    }
 
 	.footer-dark ul a {
 		color: white !important;
@@ -472,11 +479,31 @@ Updated: 14/11/2022 -->
 		padding-top: 24px;
 		opacity: 0.3;
 		font-size: 13px;
-		margin-bottom: 0;
+		margin-top: 2%;
+		margin-bottom: -1%;
+		font-size: 15px;
 	}
 
 	.Summa {
 		display: inline-flex;
+	}
+
+	.viewhistory button {
+		width: 20cm;
+		height: 1.5cm;
+		border-radius: 5px;
+		border: 1px solid whitesmoke;
+		background-color: transparent;
+		padding: 10px;
+		margin-left: 16cm;
+		font-size: 28px;
+		color: whitesmoke;
+	}
+
+	.viewhistory button:hover {
+		text-decoration: none;
+		color: #f0f9ff;
+		cursor: pointer;
 	}
 </style>
 
@@ -579,6 +606,12 @@ Updated: 14/11/2022 -->
 		</div>
 	</div>
 
+	<div class="viewhistory">
+		<a href="viewhistory.html"> <button type="button">
+				View history
+			</button> </a>
+	</div>
+
 </body>
 
 <div class="footer-dark">
@@ -597,20 +630,21 @@ Updated: 14/11/2022 -->
 				<div class="col-sm-6 col-md-3 item">
 					<h3>Check it out!!</h3>
 					<ul>
-						<li><a href="https://amrita-tifac-cyber-blockchain.github.io/ArogyaChain/ArogyaChain-UI/index.html#"
-								style="margin-left: -60px;">Arogya SupplyChain </a></li> <br>
-						<li><a href="#" style="margin-left: -60px;">Our Suppliers</a></li> <br>
-						<li><a href="#" style="margin-left: -60px;">Our Retailers</a></li> <br>
-						<li><a href="#" style="margin-left: -60px;">Customers</a></li>
+						<li><a href="https://amrita-tifac-cyber-blockchain.github.io/ArogyaChain/ArogyaChain-UI/index.html#">
+								Arogya
+								SupplyChain </a></li>
+						<li><a href="#">Our Suppliers</a></li>
+						<li><a href="#">Our Retailers</a></li>
+						<li><a href="#">Customers</a></li>
 					</ul>
 				</div>
 				<div class="col-sm-6 col-md-3 item">
 					<h3>Quick Links</h3>
 					<ul>
-						<li><a href="#" style="margin-left: -60px;">How to make an order</a></li> <br>
-						<li><a href="#" style="margin-left: -60px;">Our pricing</a></li><br>
-						<li><a href="#" style="margin-left: -60px;">Support page</a></li><br>
-						<li><a href="#" style="margin-left: -60px;">Getting started</a></li>
+						<li><a href="#">How to make an order</a></li>
+						<li><a href="#">Our pricing</a></li>
+						<li><a href="#">Support page</a></li>
+						<li><a href="#">Getting started</a></li>
 					</ul>
 				</div>
 				<div class="col item social">
