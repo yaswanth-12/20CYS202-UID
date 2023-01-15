@@ -36,13 +36,10 @@
       <h1> Retailer Register</h1>
       <div class="content">
         <div class="input-field">
-          <input type="text" placeholder="Cooperate name" required>
+          <input type="text" id="name" placeholder="Cooperate name" onchange="validateName()" required>
         </div>
         <div class="input-field">
-          <input type="text" id="name" placeholder="Pharma UHID" autocomplete="nope" onchange="validatename()" required>
-        </div>
-        <div class="input-field">
-          <input type="text" id="name" placeholder="Location" autocomplete="nope" onchange="validatename()" required>
+          <input type="Name" id="cin" placeholder="CIN no" max=5 autocomplete="nope" onchange="validateCIN()" required>
         </div>
         <div class="input-field">
           <input type="email" id="email" placeholder="Email" autocomplete="nope" onchange="validateEmail()" required>
@@ -51,14 +48,10 @@
           <input type="password" id="pwd" placeholder="Password" onchange="validatePassword()" required>
         </div>
         <div class="input-field">
-          <input type="password" id="pwd1" placeholder="Confirm Password" required>
+          <input type="password" id="pwd1" placeholder="Confirm Password" onchange="validateConfirmPwd()" required>
         </div>
         <div class="input-field">
           <div class="move3"><label for="org"> <b>Upload your Govt. License</b></label></div>
-          <input id="org" type="file" name="org" required>
-        </div>
-        <div class="input-field">
-          <div class="move3"><label for="org"> <b>Upload your Drug License</b></label></div>
           <input id="org" type="file" name="org" required>
         </div>
         <br>
